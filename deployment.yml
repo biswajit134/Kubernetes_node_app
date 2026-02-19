@@ -1,8 +1,10 @@
+# For create namespace
 kind: Namespace
 apiVersion: v1
 metadata:
   name: nodejs-demo-app
 ---
+# For create deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
