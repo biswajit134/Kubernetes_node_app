@@ -13,6 +13,7 @@
 
 ## b. Create deployment.yaml for an app.
 ...
+
 # For create namespace
 kind: Namespace
 apiVersion: v1
