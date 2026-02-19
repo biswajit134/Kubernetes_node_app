@@ -12,6 +12,37 @@
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20132421.png?raw=true)
 
 ## b. Create deployment.yaml for an app.
+...
+# For create namespace
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: nodejs-demo-app
+---
+# For create deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-demo-app-deployment
+  namespace: nodejs-demo-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nodejs-demo-app
+  template:
+    metadata:
+      name: nodejs-demo-app-deployment-pod
+      labels:
+        app: nodejs-demo-app
+    spec:
+      containers:
+      - name: nodejs-demo-app
+        image: biswajit134/nodejs-demo-app:latest
+
+        ports:
+        - containerPort: 80
+...
 ![image_url]()
 ![image_url]()
 ![image_url]()
