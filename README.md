@@ -13,7 +13,6 @@
 
 ## b. Create deployment.yaml for an app.
 ```
-
 # For create namespace
 kind: Namespace
 apiVersion: v1
@@ -44,9 +43,8 @@ spec:
         ports:
         - containerPort: 80
 ```
-![image_url]()
-![image_url]()
-![image_url]()
+![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20160542.png?raw=true)
+
 
 ## c. Expose app using service.yaml.
 ![image_url]()
