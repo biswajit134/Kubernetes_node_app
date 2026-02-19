@@ -5,7 +5,10 @@
 
 ## Hints:
 ### a. Install Minikube & a. start the cluster.
+
+
 **I am using Azure VM for this project**
+
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20114307.png?raw=true)
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20123653.png?raw=true)
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20130920.png?raw=true)
