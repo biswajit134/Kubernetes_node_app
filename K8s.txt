@@ -1,0 +1,5 @@
+kubectl apply -f <k8s_manifestfile_name>
+kubectl delete -f <k8s_manifestfile_name>
+sudo -E kubectl port-forward service/nodejs-demo-app-service -n nodejs-demo-app 80:80 --address=0.0.0.0
+kubectl scale deployment/nodejs-demo-app-deployment -n nodejs-demo-app --replicas=6
+deployment.apps/nodejs-demo-app-deployment scaled
