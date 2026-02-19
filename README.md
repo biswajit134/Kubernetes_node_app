@@ -97,7 +97,7 @@ kubectl get pods -n nodejs-demo-app
 ## e. Scale deployments using kubectl scale.
 
 ```
-kubectl scale deployment/nodejs-demo-app-deployment -n nodejs-demo-app --replicas=6 deployment.apps nodejs-demo-app-deployment scaled
+kubectl scale deployment/nodejs-demo-app-deployment -n nodejs-demo-app --replicas=6
 ```
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20162253.png?raw=true)
 
