@@ -15,6 +15,7 @@
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20132421.png?raw=true)
 
 ## b. Create deployment.yaml for an app.
+
 deployment.yml :
 ```
 # For create namespace
@@ -57,6 +58,7 @@ kubectl get deployment -n nodejs-demo-app
 
 
 ## c. Expose app using service.yaml.
+
 service.yml :
 ```
 apiVersion: v1
@@ -101,6 +103,7 @@ kubectl scale deployment/nodejs-demo-app-deployment -n nodejs-demo-app --replica
 
 
 ## f. Use kubectl describe for logs.
+
 ```
 kubectl describe deployment/nodejs-demo-app-deployment -n nodejs-demo-app
 ```
