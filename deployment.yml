@@ -1,0 +1,34 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: nodejs-demo-app
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-demo-app-deployment
+  namespace: nodejs-demo-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nodejs-demo-app
+  template:
+    metadata:
+      name: nodejs-demo-app-deployment-pod
+      labels:
+        app: nodejs-demo-app
+    spec:
+      containers:
+      - name: nodejs-demo-app
+        image: biswajit134/nodejs-demo-app:latest
+
+        ports:
+        - containerPort: 80
+      #   volumeMounts:
+      #     - mountPath: /var/www/html
+      #       name: local-pvc
+      # volumes:
+      # - name: local-pv
+      #   persistentVolumeClaim:
+      #     claimName: local-pvc
