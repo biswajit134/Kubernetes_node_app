@@ -5,11 +5,11 @@
 
 ## Hints:
 ### a. Install Minikube & a. start the cluster.
+
 ![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20114307.png?raw=true)
-![image_url]()
-![image_url]()
-![image_url]()
-![image_url]()
+![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20123653.png?raw=true)
+![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20130920.png?raw=true)
+![image_url](https://github.com/biswajit134/Kubernetes_node_app/blob/main/SS/Screenshot%202026-02-19%20132421.png?raw=true)
 
 ## b. Create deployment.yaml for an app.
 ![image_url]()
